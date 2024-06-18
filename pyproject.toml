@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "bokeh-test"
+version = "0.1.0"
+description = ""
+authors = ["r-yamada1998 <yamadier@icloud.com>"]
+readme = "README.md"
+packages = [{include = "bokeh_test"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.11"
+bokeh = "^3.4.0"
+jupyter = "^1.0.0"
+numpy = "^1.26.4"
+matplotlib = "^3.8.3"
+nercst = {git = "https://github.com/necst-telescope/nercst.git"}
+scipy = "^1.12.0"
+netcdf4 = "^1.6.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
