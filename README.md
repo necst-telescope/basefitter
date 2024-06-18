@@ -7,7 +7,7 @@
 $ git clone <copy using the browser>
 $ cd basefitter
 $ poetry install
-$ poetry run bokeh serve interface.py
+$ poetry run bokeh serve app/interface.py
 ```
 You can see the URL to acces the server in your prompt.
 
